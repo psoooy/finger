@@ -61,7 +61,7 @@ body
     height: 9px;
     background: #3fefef;
     border-radius: 8px;
-    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 63px #3fefef);;
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 63px #3fefef);
     animation: animate_line 4s ease-in-out infinite;
 }
 @keyframes animate_line
@@ -80,4 +80,19 @@ body
     text-transform: uppercase;
     font-size: 2em;
     letter-spacing: 2px;
+    margin-top: 20px;
+    color: #3fefef;
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+    animation: animate_text 2s steps(1) infinite;
+}
+@keyframes animate_text
+{
+    0%,100%
+    {
+        opacity: 0%;
+    }
+    50%
+    {
+        opacity: 100%;
+    }
 }
